@@ -1,0 +1,13 @@
+db.runCommand({ dbStats: 1, scale: 1 });
+{
+    "db" : "test",
+    "collections" : 2,
+    "objects" : 2000000,
+    "avgObjSize" : 96.120665,
+    "dataSize" : 192241330,
+    "storageSize" : 374370304,
+    "numExtents" : 0,
+    "indexes" : 6,
+    "indexSize" : 53964800,
+    "ok" : 1
+}
